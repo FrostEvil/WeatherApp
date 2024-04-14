@@ -223,5 +223,5 @@ function getWeekDay(baseDate) {
 }
 
 function getWeatherIcon(weatherCode) {
-	return `/icons/${weatherIconMap.get(weatherCode)}.svg`;
+	return `./icons/${weatherIconMap.get(weatherCode)}.svg`;
 }
